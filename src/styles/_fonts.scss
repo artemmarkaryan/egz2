@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+$font-headers: "Prosto One", sans-serif;
+$font-main: Ubuntu, sans-serif;
+
+body {
+  font-family: $font-main;
+  color: $text_primary;
+}
+
+h1 {
+  font-family: $font-headers;
+
+  font-size: 64px;
+  line-height: 79px;
+  font-weight: normal;
+}
+

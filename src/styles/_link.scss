@@ -1,0 +1,11 @@
+a {
+  font-family: $font-main;
+  text-decoration: underline;
+  color: $text_primary;
+
+  &:hover {
+    color: $accent;
+  }
+
+  transition: .2s;
+}
